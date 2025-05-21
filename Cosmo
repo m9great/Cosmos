@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmos</title>
+    <style>
+       
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url('https://img.freepik.com/premium-photo/dark-blue-wavy-background_729149-47537.jpg');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            color: white; 
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        
+        header {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5); 
+            width: 50%; 
+            position: absolute;
+            top: 20px; 
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            color: white;
+        }
+
+        
+        .content {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5); 
+            border-radius: 10px;
+            width: 8%;
+            margin-top: 125px; 
+        }
+
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<!-- <div class="sidebar">
+    <button onclick="changeContent('page1.html')">Page 1</button>
+    <button onclick="changeContent('page2.html')">Page 2</button>
+    <button onclick="changeContent('page3.html')">Page 3</button>
+</div>
+
+<div class="content">
+    <iframe id="content-frame" width="800" height="600" style="border: 1px solid black;"></iframe>
+</div> -->
+
+
+    <header>
+        <h1>Cosmos</h1>
+    </header>
+
+    <div class="content">
+        <p>Simply Lovely</p>
+
+<!-- Game link code -->
+
+<a href="https://aiwriter.dev" target="_blank" class="custom-link">
+<img src="https://celestial-garnet-dream.shop/global/img/1v1.jpg" alt="Clickable Image" width="300">
+</a>
+
+<style>
+.custom-link img {
+    position: absolute;
+    top: 250px; 
+    left: 150px;
+    width: 300px;
+    height: 170px;
+    border-radius: 10px;
+}
+</style>
+
+<a href="https://codehs.com" target="_blank" class="custom-link_2">
+<img src="https://store.codehs.com/cdn/shop/products/mockup-05d0f733.jpg?v=1574304823" alt="Clickable Image" width="300">
+</a>
+
+<style>
+.custom-link_2 img {
+    position: absolute;
+    top: 250px; 
+    left: 500px;
+    width: 300px;
+    height: 170px;
+    border-radius: 10px;
+}
+</style>
